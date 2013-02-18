@@ -1,0 +1,192 @@
+/* $Id: styles.css,v 1.30 2007/06/15 14:42:29 irfy Exp $ */
+
+body {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: verdana, geneva, arial, helvetica, sans-serif;
+  font-size: 11px;
+  margin: 0px;
+  padding: 0px;
+}
+
+table {
+  font-family: verdana, geneva, arial, helvetica, sans-serif;
+  font-size: 11px;
+  border-style: none;
+}
+
+form {
+  padding: 0px;
+  margin: 0px;
+}
+
+.BGgreen {
+  padding: 1px;
+  color: #000000;
+  background-color: #00CA00;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.BGpurple {
+  padding: 1px;
+  color: #000000;
+  background-color: #B356E9;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.BGaqua {
+  padding: 1px;
+  color: #000000;
+  background-color: #33CCD1;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.BGdyellow {
+  padding: 1px;
+  color: #000000;
+  background-color: #D1BE33;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+tr.coloredRow1 {
+  background-color: #990;
+}
+
+tr.coloredRow2 {
+  background-color: #C60;
+}
+
+span.red {
+  color: #CA0000;
+}
+
+span.green {
+  color: #00CA00;
+}
+
+span.yellow {
+  color: #D1BE33;
+}
+
+table.schedule th {
+  font-weight: normal;
+  text-align: center;
+  padding-top:1px;
+  padding-bottom:1px;
+  padding-left:8px;
+  padding-right:8px;
+  background-color:#D3D9E3;
+  border-style:solid;
+  border-width: 1px;
+  border-left-color:#ABABAB;
+  border-top-color:#ABABAB;
+}
+
+table.schedule th.invisible {
+  text-align: left;
+  background-color:#FBFBFF;
+  border-style:none;
+}
+
+table.schedule th.holiday {   
+  background-color: #EEEEEE;
+  border-style: solid;
+  border-color: #ABABAB;
+}
+
+table.schedule td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: #fbfbfb;
+  border-style: solid;
+  border-left-color:#ABABAB;
+  border-top-color:#ABABAB;
+}
+
+table.schedule td.holiday {   
+  background-color: #EEEEEE;
+}
+
+table.schedule td.appointment {   
+  background-color: #FDC689;
+}
+
+table.schedule td.conflict0 {
+  white-space: nowrap;
+  background-color:#FBFBFF;
+}
+
+table.schedule td.conflict1 {
+  white-space: nowrap;
+  background-color:#FFFF00;
+}
+
+table.schedule td.conflict2 {
+  white-space: nowrap;
+  background-color:#FF9900;
+}
+
+table.schedule td.conflict3 {
+  white-space: nowrap;
+  background-color:#FF0000;
+}
+
+table.schedule td.conflict0 select {
+  background-color:#FBFBFF;
+}
+
+table.schedule td.conflict1 select {
+  background-color:#FFFF00;
+}
+
+table.schedule td.conflict2 select {
+  background-color:#FF9900;
+}
+
+table.schedule td.conflict3 select {
+  background-color:#FF0000;
+}
+
+table.schedule input.incomplete {
+  background-color:#FB9B9F;
+}
+
+table.schedule input.complete {
+  background-color:#7BCBA0;
+}
+
+pre {
+  word-wrap: break-word;
+  font-family: monospace;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: pre-wrap;
+}
+
+pre.news {
+    word-wrap: break-word;
+    font-family: verdana;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+}
+
+.buttons a:hover img {
+    opacity: 1;
+}
+
+.buttons a img {
+    opacity: 0.5;
+}
+
+font.iopair {
+    font-family: Courier New;    
+}

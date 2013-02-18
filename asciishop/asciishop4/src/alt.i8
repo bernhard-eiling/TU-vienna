@@ -1,0 +1,18 @@
+create 41 20
+clear
+line 0 0 40 0 A
+line 0 0 40 8 B
+line 0 0 40 16 C
+line 0 0 29 19 D
+line 0 0 19 19 E
+line 0 0 10 19 F
+line 0 0 0 19 G
+print
+line 0 0 0 19 A
+line 0 0 10 19 B
+line 19 19 0 0 C
+line 29 19 0 0 D
+line 40 16 0 0 E
+line 40 8 0 0 F
+line 40 0 0 0 G
+print

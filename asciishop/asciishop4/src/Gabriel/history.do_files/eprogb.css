@@ -1,0 +1,207 @@
+/* $Id: eprogb.css,v 1.6 2006/10/09 08:20:05 mib Exp $ */
+
+a:link, a:visited, a:active, a:hover {
+  color: #003355;
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.submenu:hover, a.tabmenu:hover {
+  color: #AA0000;
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+table.header {
+  color: #003366;
+  background-color: #FBFBFB;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+}
+
+td {
+  border-style: none;
+  border-color: #000000;
+  padding: 0px;
+  border-width: 1px;
+  vertical-align: middle;
+}
+
+td.bold {
+  font-weight:bold;
+}
+
+td.boldcenter {
+  font-weight: bold;
+  text-align: center;
+}
+
+td.frame {
+  vertical-align: top;
+}
+
+td.header {
+  text-align: center;
+  vertical-align: middle;
+}
+
+td.head {
+  color: #003366;
+  background-image: url("images/bghead_eprogb.jpg");
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  vertical-align: middle;
+  font-weight: bold;
+  border-style: solid;
+}
+
+td.in {
+  background-color: #FBFBFB;
+  border-style: solid;
+  padding: 8px;
+}
+
+td.in2 {
+    border-left-color: #ABABAB;
+    border-top-color: #ABABAB;
+    background-color: #EEEEEE;
+    border-style: solid;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/*
+td.text {
+  padding: 4px;
+  background-color: #FBFBFB;
+}
+*/
+
+td.headinner {
+  color: #003366;
+  font-weight: bold;
+  border-style: none;
+  white-space: normal;
+}
+
+td.fastLogin {
+  background-color: D3D9E3;
+  border-left-color: #ABABAB;
+  border-top-color: #ABABAB;
+  border-style: solid;
+}
+
+td.submenu ,td.submenublink, td.submenuover, td.submenuoverblink, td.tabmenu, td.tabmenuover {
+  border-style: solid;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-left-color: #ABABAB;
+  border-top-color: #ABABAB;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+td.submenu, td.submenublink {
+  background-color: #D3D9E3;
+}
+
+td.submenuover, td.submenuoverblink  {
+  background-color: #FFFFFF;
+}
+
+td.submenublink, td.submenuoverblink {
+  text-decoration: blink;
+}
+
+td.tabmenu {
+  background-color: #D3D9E3;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td.tabmenuover {
+  background-color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td.iopairIn, td.iopairOut, td.iopairEOut {
+  background-color: #EEEEEE;
+}
+
+select.formular, textarea.formular, input.formular {
+  font-family: verdana, geneva, arial, helvetica, sans-serif;
+  font-size: 11px;
+  padding: 1px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #EEEEEE;
+  border-color: #000000;
+  border-left-color: #ABABAB;
+  border-top-color: #ABABAB;
+}
+
+select.formular:focus {
+    background-color: #ffffff;
+}
+textarea.formular:focus {
+    background-color: #FFFFFF;
+}
+
+input.formular:focus {
+  background-color: #FFFFFF;
+}
+
+input {
+  font-weight: normal;
+  padding: 1px;
+  border-width: 1px;
+}
+
+input.fastLogin {
+  font-size: 10px;
+  border-left-color: #ABABAB;
+  border-top-color: #ABABAB;
+  background-color: #EEEEEE;
+  border-width: 1px;
+}
+
+input.button , input.buttonEV, input.buttonDownload, input.buttonFastLogin, input.buttonAuto {
+  font-size: 11px;
+  padding: 0px;
+  color: #003355;
+  background-color: #E6E6E6;
+  cursor: crosshair;
+}
+
+input.button {
+  border-width: 2px;
+  width: 100px;
+}
+
+input.buttonEV, input.buttonDownload {
+  border-width: 1px;
+  border-style: solid;
+}
+
+input.buttonEV {
+  width: 50px;
+}
+input.buttonFastLogin {
+  background-color: #EEEEEE;
+  border-width: 2px;
+  width: 82px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+input.buttonAuto {
+  width: auto;
+}
